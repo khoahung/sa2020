@@ -6,7 +6,7 @@ int main() {
 	if (pid == 0) {
 		printf("enter the command:");
 		char cmd[1000];
-        	scanf("%[^\n]s", cmd);
+        	fgets(cmd,sizeof cmd,stdin);
 
 		char *args[]= {"/bin/bash",cmd,NULL};
 	
