@@ -1,25 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdftex 2020.4.7)  7 MAR 2021 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdftex 2020.4.7)  7 MAR 2021 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **input.tex
 (./input.tex)
-*welcome to pdftext
-
-*:q!
-
-*
-! Interruption.
-<*> 
-    
-? 
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
 *\end
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]</usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on input.pdf (1 page, 13776 bytes).
+Output written on input.pdf (1 page, 16027 bytes).
 PDF statistics:
  12 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
