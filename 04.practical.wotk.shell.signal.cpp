@@ -16,6 +16,7 @@ void signalHandler( int signum ) {
 
 int main() {
     int pid = fork();
+    signal(SIGINT, signalHandler);
     if (pid == 0) {
         printf("enter the command:");
         char cmd[1000];
@@ -26,10 +27,10 @@ int main() {
             if(strcmp(cmd,"quit")){
                     return 0;
         }
-        signal(SIGINT, signalHandler);
-        raise( SIGINT);
+        
         execvp("/bin/bash", args);
     }else{
+        raise( SIGINT);
         printf("I am parent after fork(), child is %d\n", pid);
     }
     return 0;
