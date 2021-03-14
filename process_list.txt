@@ -1,0 +1,408 @@
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+khoahung           696   3.4  2.4  6602704 398060   ??  S     1:45PM   2:57.54 com.docker.hyperkit -A -u -F vms/0/hyperkit.pid -c 4 -m 2048M -s 0:0,hostbridge -s 31,lpc -s 1:0,virtio-vpnkit,path=vpnkit.eth.sock,uuid=d8f9fc9a-7a4a-43ae-9b7b-a9b45908b5e8 -U ac812399-17aa-4641-ab25-a2aa50ea68db -s 2:0,virtio-blk,/Users/khoahung/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw -s 3,virtio-sock,guest_cid=3,path=vms/0,guest_forwards=2376;1525 -s 4,virtio-rnd -l com1,null,asl,log=vms/0/console-ring -f kexec,/Applications/Docker.app/Contents/Resources/linuxkit/kernel,/Applications/Docker.app/Contents/Resources/linuxkit/initrd.img,earlyprintk=serial console=ttyS0 console=ttyS1 page_poison=1 vsyscall=emulate panic=1 nospec_store_bypass_disable noibrs noibpb no_stf_barrier mitigations=off
+_windowserver      150   1.4  0.8  7418488 126508   ??  Ss    1:45PM   3:02.13 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+_driverkit         313   0.9  0.0  4806844   2268   ??  Ss    1:45PM   0:29.36 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDeviceKB 0x100000483
+khoahung          1564   0.9  0.4  5186148  68268   ??  S     2:11PM   0:06.81 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+_driverkit         315   0.3  0.0  4814532   2356   ??  Ss    1:45PM   0:12.39 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDEventDriver 0x1000004b7
+_trustevaluationagent  2492   0.0  0.0  4362844   1828   ??  Ss    2:44PM   0:00.01 trustevaluationagent
+khoahung          2490   0.0  0.1  4362208  10120   ??  S     2:44PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+khoahung          2417   0.0  0.0  4268332    736 s000  S+    2:41PM   0:00.00 ./practical07
+khoahung          2370   0.0  0.1 106198492  21396   ??  Ss    2:40PM   0:00.11 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+khoahung          2284   0.0  0.1  4406396  11884   ??  S     2:36PM   0:00.13 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+_reportmemoryexception  2114   0.0  0.0  4334640   1156   ??  S     2:29PM   0:00.03 /usr/sbin/distnoted agent
+khoahung          2112   0.0  0.0  4356840   3416   ??  S     2:29PM   0:00.01 /System/Library/CoreServices/ReportCrash agent
+root              2000   0.0  0.0  4345160   1696   ??  Ss    2:25PM   0:00.03 /usr/libexec/logd_helper
+khoahung          1814   0.0  0.1  4446596  24420   ??  S     2:18PM   0:00.88 /usr/libexec/remindd
+root              1758   0.0  0.1  4377744  13892   ??  Ss    2:16PM   0:00.08 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+khoahung          1685   0.0  0.0  4368320   6300   ??  Ss    2:15PM   0:00.03 /Applications/Xcode.app/Contents/SharedFrameworks/DVTSourceControl.framework/Versions/A/XPCServices/com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner.xpc/Contents/MacOS/com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner
+khoahung          1683   0.0  0.1  4451900  14188   ??  Ss    2:15PM   0:00.28 /Applications/Xcode.app/Contents/SharedFrameworks/SourceKit.framework/Versions/A/XPCServices/com.apple.dt.SKAgent.xpc/Contents/MacOS/com.apple.dt.SKAgent
+khoahung          1681   0.0  0.1  4840960  15884   ??  Ss    2:15PM   0:00.13 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+khoahung          1680   0.0  0.1  4862468  10968   ??  Ss    2:15PM   0:00.13 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+khoahung          1679   0.0  0.0  4386088   6384   ??  Ss    2:15PM   0:00.03 /Applications/Xcode.app/Contents/SharedFrameworks/DVTSourceControl.framework/Versions/A/XPCServices/com.apple.dt.Xcode.sourcecontrol.SSHHelper.xpc/Contents/MacOS/com.apple.dt.Xcode.sourcecontrol.SSHHelper
+khoahung          1678   0.0  0.1  4444548  10304   ??  Ss    2:15PM   0:00.05 /Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework/Versions/A/XPCServices/com.apple.dt.Xcode.KeychainService.xpc/Contents/MacOS/com.apple.dt.Xcode.KeychainService
+khoahung          1675   0.0  0.1  4458956  19436   ??  Ss    2:15PM   0:00.27 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+khoahung          1674   0.0  0.1  4901832  11144   ??  Ss    2:15PM   0:00.05 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+khoahung          1673   0.0  0.4  5166632  74232   ??  Ss    2:15PM   0:02.25 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+khoahung          1567   0.0  0.0  4309996   2440 s000  S     2:11PM   0:00.17 -zsh
+root              1566   0.0  0.0  4354372   3060   ??  Ss    2:11PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root              1565   0.0  0.0  4383080   6128 s000  Ss    2:11PM   0:00.06 login -pf khoahung
+khoahung          1563   0.0  0.1  4515784  18312   ??  S     2:11PM   0:00.05 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/GPUToolsPlatform/GPUToolsAgent.app/Contents/MacOS/GPUToolsAgent
+khoahung          1556   0.0  0.0  4356404   1940   ??  Ss    2:11PM   0:00.01 /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/XPCServices/com.apple.dt.Xcode.DeveloperSystemPolicyService.xpc/Contents/MacOS/com.apple.dt.Xcode.DeveloperSystemPolicyService
+khoahung          1555   0.0  1.4  6523644 238516   ??  S     2:11PM   0:10.66 /Applications/Xcode.app/Contents/MacOS/Xcode
+root              1340   0.0  0.0  4354720   2012   ??  Ss    2:03PM   0:00.01 /usr/libexec/applessdstatistics
+khoahung          1329   0.0  0.3  4942444  52580   ??  Ss    2:02PM   0:00.47 /System/Applications/Stocks.app/Contents/PlugIns/StocksWidget.appex/Contents/MacOS/StocksWidget
+khoahung          1328   0.0  0.3  4908100  45104   ??  Ss    2:02PM   0:01.13 /System/Library/CoreServices/Clock.app/Contents/PlugIns/WorldClockWidget.appex/Contents/MacOS/WorldClockWidget
+khoahung          1327   0.0  0.2  4937892  30556   ??  Ss    2:02PM   0:00.79 /System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex/Contents/MacOS/CalendarWidgetExtension
+khoahung          1325   0.0  0.0  4376392   6312   ??  S     2:02PM   0:00.10 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+khoahung          1050   0.0  0.1  4432876   8820   ??  S     1:51PM   0:00.13 /System/Library/Frameworks/ClassKit.framework/Versions/A/progressd
+khoahung          1047   0.0  0.1  4435088  12496   ??  S     1:51PM   0:00.21 /System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent
+khoahung          1039   0.0  0.2  4444684  31980   ??  S     1:51PM   0:00.82 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+khoahung          1037   0.0  0.2  4434656  40276   ??  S     1:51PM   0:00.28 /System/iOSSupport/System/Library/PrivateFrameworks/AvatarUI.framework/Support/avatarsd
+khoahung          1029   0.0  0.0  4430492   5372   ??  S     1:51PM   0:00.10 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+khoahung          1028   0.0  0.1  4433384  12496   ??  S     1:51PM   0:00.19 cloudphotod
+khoahung          1017   0.0  0.1  5094368  14808   ??  S     1:51PM   0:00.21 /System/Library/CoreServices/LocationMenu.app/Contents/MacOS/LocationMenu
+khoahung          1015   0.0  0.0  4402968   6336   ??  S     1:51PM   0:00.05 /System/Library/CoreServices/ScopedBookmarkAgent
+khoahung          1011   0.0  0.1  4429744  10080   ??  S     1:51PM   0:00.16 /System/Library/CoreServices/mapspushd
+_fpsd             1005   0.0  0.0  4354752   2092   ??  Ss    1:51PM   0:00.08 /System/Library/PrivateFrameworks/CoreLSKD.framework/Versions/A/lskdd
+khoahung           997   0.0  0.0  4367500   4212   ??  Ss    1:50PM   0:00.03 /System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServices/FMIPClientXPCService.xpc/Contents/MacOS/FMIPClientXPCService
+khoahung           995   0.0  0.1  4430288   9716   ??  S     1:50PM   0:00.07 /usr/libexec/siriknowledged
+khoahung           991   0.0  0.1  4391596   9092   ??  S     1:50PM   0:00.08 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+khoahung           984   0.0  0.4  4467856  63068   ??  S     1:50PM   0:12.39 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service
+root               975   0.0  0.0  4374696   3740   ??  Ss    1:50PM   0:00.06 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/XPCServices/com.apple.AppStoreDaemon.StorePrivilegedTaskService.xpc/Contents/MacOS/com.apple.AppStoreDaemon.StorePrivilegedTaskService
+_installcoordinationd   974   0.0  0.0  4375300   4940   ??  Ss    1:50PM   0:00.05 /System/Library/PrivateFrameworks/InstallCoordination.framework/Support/installcoordinationd
+khoahung           970   0.0  0.1  4441548  17920   ??  S     1:50PM   0:00.57 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+khoahung           957   0.0  0.0  4366920   3172   ??  Ss    1:50PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root               897   0.0  0.0  4367008   3064   ??  Ss    1:47PM   0:00.08 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root               896   0.0  0.0  4374804   4828   ??  Ss    1:47PM   0:00.03 /System/Library/CoreServices/SubmitDiagInfo server-init
+khoahung           895   0.0  0.0  4392340   3592   ??  S     1:47PM   0:00.02 /usr/libexec/spindump_agent
+root               894   0.0  0.0  4429832   8320   ??  Ss    1:47PM   0:00.16 /usr/sbin/spindump
+root               885   0.0  0.0  4356748   1608   ??  Ss    1:47PM   0:00.01 /usr/libexec/online-authd
+_spotlight         871   0.0  0.0  4383636   2840   ??  S     1:46PM   0:00.06 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+_spotlight         859   0.0  0.0  4407100   5972   ??  S     1:46PM   0:00.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+khoahung           843   0.0  0.0  4430624   5904   ??  S     1:46PM   0:00.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+root               813   0.0  0.0  4426164   7084   ??  Ss    1:46PM   0:00.09 /usr/libexec/dprivacyd
+khoahung           811   0.0  0.1  4904036  15316   ??  Ss    1:46PM   0:00.25 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+khoahung           797   0.0  0.1  4434284  12456   ??  S     1:46PM   0:00.28 /usr/libexec/adprivacyd
+khoahung           792   0.0  0.1  4435416  12448   ??  Ss    1:46PM   0:00.14 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+khoahung           791   0.0  0.0  4399832   2512   ??  S     1:46PM   0:00.02 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+root               789   0.0  0.0  4429444   6068   ??  Ss    1:46PM   0:00.24 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/CAReportingService.xpc/Contents/MacOS/CAReportingService
+khoahung           787   0.0  0.1  4443156   9708   ??  Ss    1:46PM   0:00.09 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+khoahung           785   0.0  0.0  4415176   6060   ??  Ss    1:46PM   0:00.12 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/CarbonComponentScannerXPC.xpc/Contents/MacOS/CarbonComponentScannerXPC
+khoahung           784   0.0  0.0  4375200   4320   ??  S     1:46PM   0:00.06 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+root               780   0.0  0.0  4375152   1312   ??  Ss    1:46PM   0:00.01 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+root               779   0.0  0.0  4431020   4440   ??  S     1:46PM   0:00.06 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+khoahung           771   0.0  0.1  4433608   9056   ??  S     1:46PM   0:00.07 /usr/libexec/keyboardservicesd
+khoahung           770   0.0  0.2  4502396  30568   ??  S     1:46PM   0:00.74 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+root               766   0.0  0.0  4399428   1996   ??  Ss    1:46PM   0:00.25 /usr/libexec/sysmond
+_fpsd              765   0.0  0.0  4364716   3972   ??  Ss    1:46PM   0:00.04 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fairplayd
+khoahung           758   0.0  0.0  4438868   7652   ??  Ss    1:45PM   0:00.06 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+_cmiodalassistants   757   0.0  0.0  4368000   2428   ??  Ss    1:45PM   0:00.02 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+khoahung           756   0.0  0.0  4310232   1944   ??  S     1:45PM   0:00.03 /usr/bin/ssh-agent -l
+root               755   0.0  0.0  4391632   4032   ??  Ss    1:45PM   0:00.02 /usr/libexec/morphunassetsupdaterd
+root               751   0.0  0.0  4430780   6444   ??  Ss    1:45PM   0:00.08 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+_datadetectors     743   0.0  0.0  4398892   2296   ??  Ss    1:45PM   0:00.06 /usr/libexec/DataDetectorsSourceAccess
+khoahung           737   0.0  0.1  4466964  19464   ??  S     1:45PM   0:00.36 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd
+khoahung           727   0.0  0.1  4451172  18996   ??  Ss    1:45PM   0:00.28 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+khoahung           726   0.0  0.0  4382364   1868   ??  Ss    1:45PM   0:00.01 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+khoahung           725   0.0  0.1  4901832  11188   ??  Ss    1:45PM   0:00.06 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+khoahung           724   0.0  0.2  5105628  33528   ??  Ss    1:45PM   0:00.79 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+khoahung           722   0.0  0.0  4405168   7280   ??  Ss    1:45PM   0:00.17 /System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService
+_applepay          720   0.0  0.0  4422248   4624   ??  Ss    1:45PM   0:00.08 /usr/libexec/nfcd
+khoahung           718   0.0  0.1  4440900  17380   ??  S     1:45PM   0:00.62 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+_spotlight         717   0.0  0.1  4432088   8832   ??  S     1:45PM   0:00.38 /usr/libexec/trustd --agent
+khoahung           716   0.0  0.1  4901792  10476   ??  S     1:45PM   0:00.07 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimulatorTrampoline.xpc/Contents/MacOS/SimulatorTrampoline
+khoahung           715   0.0  0.0  4375908   2908   ??  S     1:45PM   0:00.04 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimLaunchHost.x86.xpc/Contents/MacOS/SimLaunchHost.x86
+khoahung           714   0.0  0.1  4904824  14516   ??  S     1:45PM   0:00.71 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService
+khoahung           713   0.0  0.0  4399372   5420   ??  S     1:45PM   0:00.14 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/webinspectord
+khoahung           712   0.0  0.1  4448144  21652   ??  S     1:45PM   0:01.80 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+khoahung           711   0.0  0.1  4429388   8552   ??  S     1:45PM   0:00.92 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariCloudHistoryPushAgent
+khoahung           710   0.0  0.1  4903920  17432   ??  Ss    1:45PM   0:00.15 /Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safari.SandboxBroker
+khoahung           709   0.0  0.1  4429672  11856   ??  S     1:45PM   0:00.11 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariNotificationAgent
+khoahung           708   0.0  0.1  4430196  11492   ??  S     1:45PM   0:00.10 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariLaunchAgent
+khoahung           707   0.0  0.1  4457376  14628   ??  S     1:45PM   0:00.26 /System/Library/PrivateFrameworks/Translation.framework/translationd
+khoahung           706   0.0  0.1  4433852  18560   ??  S     1:45PM   0:01.32 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+root               704   0.0  0.0  4373864   1904   ??  Ss    1:45PM   0:00.04 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+_spotlight         703   0.0  0.0  4435704   5468   ??  S     1:45PM   0:00.06 /usr/libexec/pkd
+khoahung           702   0.0  0.3  4519716  48116   ??  Ss    1:45PM   0:34.51 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+khoahung           700   0.0  0.1  4439656  14648   ??  SN    1:45PM   0:01.83 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+_spotlight         699   0.0  0.1  4438688  14220   ??  SN    1:45PM   0:01.74 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+khoahung           698   0.0  0.1  4439340  16348   ??  S     1:45PM   0:00.33 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+khoahung           697   0.0  0.7  6432924 117508   ??  S     1:45PM   1:10.60 /Applications/Safari.app/Contents/MacOS/Safari
+_www               690   0.0  0.0  4317872    832   ??  S     1:45PM   0:00.00 /usr/sbin/httpd -D FOREGROUND
+root               677   0.0  0.1  4431604   9380   ??  Ss    1:45PM   0:00.18 /usr/libexec/rtcreportingd
+khoahung           670   0.0  0.1  4430748  10276   ??  Ss    1:45PM   0:00.11 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.ClientFlow.ClientScripter.xpc/Contents/MacOS/com.apple.siri.ClientFlow.ClientScripter
+khoahung           669   0.0  0.1  5048360  24332   ??  S     1:45PM   0:00.63 docker serve --address unix:///Users/khoahung/.docker/run/docker-cli-api.sock
+khoahung           668   0.0  0.1  5165420  24104   ??  S     1:45PM   0:03.32 com.docker.driver.amd64-linux -addr fd:3 -debug
+khoahung           667   0.0  0.1  4999420  12200   ??  S     1:45PM   0:11.61 vpnkit-bridge --addr listen://1999 host
+khoahung           665   0.0  0.1  4399552  24580   ??  S     1:45PM   0:00.76 com.docker.vpnkit --ethernet fd:3 --diagnostics fd:4 --pcap fd:5 --vsock-path vms/0/connect --gateway-forwards /Users/khoahung/Library/Group Containers/group.com.docker/gateway_forwards.json --host-names host.docker.internal,docker.for.mac.host.internal,docker.for.mac.localhost --listen-backlog 32 --mtu 1500 --allowed-bind-addresses 0.0.0.0 --http /Users/khoahung/Library/Group Containers/group.com.docker/http_proxy.json --dhcp /Users/khoahung/Library/Group Containers/group.com.docker/dhcp.json --port-max-idle-time 300 --max-connections 2000 --gateway-ip 192.168.65.1 --host-ip 192.168.65.2 --lowest-ip 192.168.65.3 --highest-ip 192.168.65.254 --log-destination asl --gc-compact-interval 1800
+khoahung           664   0.0  0.0  4314860   7248   ??  S     1:45PM   0:00.05 com.docker.osxfs serve --address fd:3 --connect vms/0/connect --control fd:4
+khoahung           659   0.0  0.1  5150252  16684   ??  S     1:45PM   0:00.57 /Applications/Docker.app/Contents/MacOS/com.docker.supervisor -watchdog
+khoahung           658   0.0  0.0  4383912   3256   ??  S     1:45PM   0:00.01 /usr/libexec/loginitemregisterd
+khoahung           656   0.0  0.2  5184800  37164   ??  S     1:45PM   0:03.44 /Applications/Docker.app/Contents/MacOS/com.docker.backend -watchdog
+khoahung           651   0.0  0.0  4391484   3568   ??  S     1:45PM   0:00.06 /usr/libexec/USBAgent
+khoahung           646   0.0  0.1  4607948  13896   ??  S     1:45PM   0:00.16 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager
+root               643   0.0  0.0  4336440   1336   ??  Ss    1:45PM   0:00.00 /usr/libexec/misagent
+khoahung           641   0.0  0.0  4372844   4104   ??  S     1:45PM   0:00.01 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+khoahung           638   0.0  0.0  4399268   7204   ??  S     1:45PM   0:00.07 /usr/libexec/findmydevice-user-agent
+khoahung           637   0.0  0.3  4592944  49836   ??  S     1:45PM   0:02.55 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+khoahung           636   0.0  0.1  4771784  24932   ??  S     1:45PM   0:00.64 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+khoahung           634   0.0  0.1  4901712  11200   ??  Ss    1:45PM   0:00.13 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+root               633   0.0  0.0  4407828   5332   ??  Ss    1:45PM   0:00.05 /System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheTetheratorService.xpc/Contents/MacOS/AssetCacheTetheratorService
+_assetcache        632   0.0  0.0  4334640   1168   ??  S     1:45PM   0:00.03 /usr/sbin/distnoted agent
+_assetcache        631   0.0  0.0  4431560   6672   ??  Ss    1:45PM   0:00.08 /usr/libexec/AssetCache/AssetCache
+khoahung           630   0.0  0.0  4839560   4180   ??  S     1:45PM   0:00.02 /usr/libexec/SidecarRelay
+khoahung           629   0.0  0.1  4432544   8488   ??  S     1:45PM   0:00.13 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+khoahung           624   0.0  0.0  4391024   2000   ??  Ss    1:45PM   0:00.01 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+khoahung           590   0.0  0.0  4421876   5208   ??  S     1:45PM   0:00.02 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService
+khoahung           589   0.0  0.0  4821628   3252   ??  S     1:45PM   0:00.01 SafeEjectGPUAgent
+khoahung           588   0.0  0.1  4440636  17856   ??  S     1:45PM   0:00.96 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+khoahung           580   0.0  0.0  4429756   7552   ??  S     1:45PM   0:00.16 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+khoahung           576   0.0  0.0  4437208   5588   ??  S     1:45PM   0:00.10 /usr/libexec/neagent
+khoahung           573   0.0  0.2  5112244  31920   ??  S     1:45PM   0:00.42 /System/Library/CoreServices/RemoteManagement/SSMenuAgent.app/Contents/MacOS/SSMenuAgent
+khoahung           572   0.0  0.1  4437288   9848   ??  Ss    1:45PM   0:00.36 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.MobileDocumentsFileProvider
+khoahung           571   0.0  0.0  4441324   8296   ??  S     1:45PM   0:00.06 /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent
+khoahung           568   0.0  0.1  4431224   8480   ??  Ss    1:45PM   0:00.25 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+khoahung           566   0.0  0.2  5132332  32060   ??  S     1:45PM   0:00.71 /Applications/Docker.app/Contents/MacOS/Docker
+khoahung           565   0.0  0.1  4430484   8992   ??  S     1:45PM   0:00.23 /usr/libexec/diagnosticextensionsd
+_nsurlsessiond     564   0.0  0.0  4334640   1168   ??  S     1:45PM   0:00.06 /usr/sbin/distnoted agent
+khoahung           563   0.0  0.0  4437604   5836   ??  S     1:45PM   0:00.08 /System/Library/CoreServices/pbs
+khoahung           560   0.0  0.0  4429824   6552   ??  S     1:45PM   0:00.15 /usr/libexec/triald
+khoahung           559   0.0  0.1  4461016  19364   ??  Ss    1:45PM   0:00.24 /System/Library/Frameworks/QuickLook.framework/Versions/A/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+root               557   0.0  0.0  4400004   3588   ??  Ss    1:45PM   0:00.34 /usr/libexec/xpcroleaccountd -launchd
+root               556   0.0  0.0  4402252   6480   ??  Ss    1:45PM   0:00.09 /private/var/db/com.apple.xpc.roleaccountd.staging/com.apple.MobileSoftwareUpdate.UpdateBrainService.16777222.12922015319.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.UpdateBrainService
+khoahung           555   0.0  0.1  4451172  19060   ??  Ss    1:45PM   0:00.40 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+_ctkd              554   0.0  0.0  4391664   2568   ??  Ss    1:45PM   0:00.05 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+khoahung           553   0.0  0.1  4435524  14992   ??  S     1:45PM   0:00.43 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+khoahung           552   0.0  0.0  4399364   3652   ??  S     1:45PM   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+khoahung           551   0.0  0.1  4442752   9960   ??  S     1:45PM   0:00.07 /System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher
+khoahung           549   0.0  0.2  5136024  31436   ??  S     1:45PM   0:00.63 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+khoahung           548   0.0  0.1  4904272  10680   ??  S     1:45PM   0:00.08 /Applications/VMware Fusion.app/Contents/Library/VMware Fusion Start Menu.app/Contents/MacOS/VMware Fusion Start Menu
+root               547   0.0  0.0  4325104   1932   ??  Ss    1:45PM   0:00.02 /usr/libexec/taskgated
+root               546   0.0  0.0  4391580   1884   ??  Ss    1:45PM   0:00.01 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+root               545   0.0  0.0  4399332   3144   ??  Ss    1:45PM   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+khoahung           543   0.0  0.1  4433040  13108   ??  S     1:45PM   0:00.30 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd
+khoahung           541   0.0  0.1  5101404  19512   ??  S     1:45PM   0:00.25 /System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent
+khoahung           539   0.0  0.0  4430164   7664   ??  S     1:45PM   0:00.11 /System/Library/CoreServices/diagnostics_agent
+khoahung           536   0.0  0.1  4430244  14188   ??  S     1:45PM   0:01.09 /System/Library/CoreServices/cloudpaird
+khoahung           535   0.0  0.1  4901768  10056   ??  S     1:45PM   0:00.07 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+khoahung           534   0.0  0.1  4433184  10368   ??  S     1:45PM   0:01.79 /Library/Application Support/Adobe/AdobeGCClient/AGMService -mode=logon
+khoahung           532   0.0  0.1  4434864  10984   ??  S     1:45PM   0:00.24 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+khoahung           528   0.0  0.1  4498884  20600   ??  S     1:45PM   0:00.65 /Library/Application Support/Malwarebytes/MBAM/Engine.bundle/Contents/PlugIns/FrontendAgent.app/Contents/MacOS/FrontendAgent
+khoahung           526   0.0  0.0  4429672   5836   ??  S     1:45PM   0:00.18 /System/Library/Image Capture/Support/icdd
+khoahung           525   0.0  0.0  4276060   1024   ??  S     1:45PM   0:00.02 bash /usr/local/bin/stkLaunchAgent.sh
+khoahung           524   0.0  0.1  5060396  16388   ??  S     1:45PM   0:00.61 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+khoahung           523   0.0  0.0  4431104   7300   ??  S     1:45PM   0:00.07 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+khoahung           516   0.0  0.0  4431236   7652   ??  S     1:45PM   0:00.17 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+khoahung           515   0.0  0.0  4429708   7440   ??  S     1:45PM   0:00.03 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent
+khoahung           514   0.0  0.1  4435160   9532   ??  S     1:45PM   0:00.49 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+khoahung           512   0.0  0.1  4435992  10400   ??  S     1:45PM   0:02.56 /System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd
+khoahung           509   0.0  0.1  4431924  11208   ??  Ss    1:45PM   0:00.24 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+khoahung           508   0.0  0.3  4892592  44680   ??  S     1:45PM   0:01.14 /System/Library/CoreServices/UIKitSystem.app/Contents/MacOS/UIKitSystem system_app_start
+khoahung           507   0.0  0.1  4433312   8924   ??  Ss    1:45PM   0:00.09 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+khoahung           506   0.0  0.1  4437496  14456   ??  S     1:45PM   0:00.65 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+khoahung           505   0.0  0.1  4436308  14924   ??  S     1:45PM   0:00.33 /usr/libexec/fmfd
+khoahung           504   0.0  0.0  4399188   3120   ??  S     1:45PM   0:00.04 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+khoahung           503   0.0  0.1  4433508  12928   ??  Ss    1:45PM   0:00.52 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+khoahung           502   0.0  0.2  4445056  27484   ??  S     1:45PM   0:00.82 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+root               501   0.0  0.0  4430064   5300   ??  Ss    1:45PM   0:00.08 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+root               500   0.0  0.0  4429508   4708   ??  Ss    1:45PM   0:00.06 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService
+khoahung           499   0.0  0.1  4433312  10220   ??  Ss    1:45PM   0:00.17 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+root               498   0.0  0.0  4399892   5080   ??  Ss    1:45PM   0:00.11 /usr/libexec/wifivelocityd
+khoahung           497   0.0  0.1  4599716  11676   ??  S     1:45PM   0:00.11 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+khoahung           496   0.0  0.1  4588880  18836   ??  S     1:45PM   0:00.85 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+khoahung           495   0.0  0.0  4429972   4596   ??  Ss    1:45PM   0:00.03 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService
+khoahung           494   0.0  0.0  4391076   3176   ??  S     1:45PM   0:00.06 /usr/libexec/WiFiVelocityAgent
+khoahung           493   0.0  0.1  4433240  18060   ??  S     1:45PM   0:00.51 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+khoahung           492   0.0  0.0  4429820   7208   ??  S     1:45PM   0:00.05 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+_softwareupdate    491   0.0  0.0  4334640   1176   ??  S     1:45PM   0:00.05 /usr/sbin/distnoted agent
+root               490   0.0  0.0  4400624   4752   ??  Ss    1:45PM   0:00.03 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+khoahung           489   0.0  0.1  4433312   8692   ??  Ss    1:45PM   0:00.08 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+khoahung           488   0.0  0.1  4441476  25128   ??  S     1:45PM   0:00.65 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+root               487   0.0  0.0  4429976   5940   ??  Ss    1:45PM   0:00.07 /usr/sbin/WirelessRadioManagerd
+khoahung           486   0.0  0.1  5061812  13176   ??  S     1:45PM   0:00.14 /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent
+khoahung           485   0.0  0.1  4435624   9292   ??  Ss    1:45PM   0:00.11 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+khoahung           484   0.0  0.0  4434000   8084   ??  S     1:45PM   0:00.08 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+khoahung           483   0.0  0.4  4938380  63668   ??  Ss    1:45PM   0:27.46 /System/Applications/News.app/Contents/PlugIns/NewsToday2.appex/Contents/MacOS/NewsToday2
+khoahung           482   0.0  0.3  5081324  53300   ??  Ss    1:45PM   0:01.42 /System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetExtension.appex/Contents/MacOS/ScreenTimeWidgetExtension
+khoahung           481   0.0  0.3  5100836  47808   ??  Ss    1:45PM   0:01.10 /System/Library/CoreServices/ClimateProxy.app/Contents/PlugIns/WeatherWidget.appex/Contents/MacOS/WeatherWidget
+khoahung           479   0.0  0.0  4399604   7384   ??  S     1:45PM   0:00.07 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+khoahung           477   0.0  0.1  4442784  13932   ??  S     1:45PM   0:00.16 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+khoahung           476   0.0  0.0  4429320   7764   ??  S     1:45PM   0:00.06 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+khoahung           475   0.0  0.0  4399188   5144   ??  S     1:45PM   0:00.05 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+_softwareupdate    474   0.0  0.3  4515280  51668   ??  Ss    1:45PM   0:06.60 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+khoahung           473   0.0  0.2  4452164  26308   ??  S     1:45PM   0:03.63 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+khoahung           471   0.0  0.2  4448644  32636   ??  S     1:45PM   0:03.26 /usr/libexec/sharingd
+khoahung           470   0.0  0.2  4446568  29524   ??  Ss    1:45PM   0:01.10 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+khoahung           469   0.0  0.0  4430196   5904   ??  S     1:45PM   0:00.11 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+khoahung           468   0.0  0.1  4600228  18008   ??  S     1:45PM   0:02.68 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+khoahung           467   0.0  0.0  4400232   2868   ??  Ss    1:45PM   0:00.05 /System/Library/PrivateFrameworks/login.framework/Versions/A/XPCServices/LoginUserService.xpc/Contents/MacOS/LoginUserService
+khoahung           466   0.0  0.1  5068160  12256   ??  S     1:45PM   0:00.13 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+khoahung           465   0.0  0.1  4429532  10696   ??  S     1:45PM   0:00.54 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+khoahung           464   0.0  0.1  4942816  10360   ??  S     1:45PM   0:00.31 /System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+khoahung           463   0.0  0.2  4933436  31764   ??  Ss    1:45PM   0:00.61 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+khoahung           462   0.0  0.0  4429888   7696   ??  S     1:45PM   0:01.24 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+khoahung           461   0.0  0.1  4442244  12976   ??  S     1:45PM   0:00.69 /System/Library/CoreServices/iconservicesagent
+khoahung           460   0.0  0.0  4429532   7484   ??  Ss    1:45PM   0:00.06 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech
+khoahung           459   0.0  0.1  4434992  16612   ??  S     1:45PM   0:00.77 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent
+khoahung           458   0.0  0.1  4430968  10568   ??  S     1:45PM   0:00.34 /System/Library/CoreServices/sharedfilelistd
+_fpsd              457   0.0  0.0  4401484   3352   ??  Ss    1:45PM   0:00.19 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+khoahung           456   0.0  0.1  4453016   8676   ??  S     1:45PM   0:01.10 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+khoahung           455   0.0  0.1  4432928  10088   ??  S     1:45PM   0:00.32 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+khoahung           454   0.0  0.1  4430972  11736   ??  S     1:45PM   0:01.35 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+khoahung           453   0.0  0.3  4462012  42028   ??  S     1:45PM   0:04.46 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+root               452   0.0  0.0  4407288   7456   ??  Ss    1:45PM   0:00.09 /usr/sbin/filecoordinationd
+khoahung           451   0.0  0.1  4437036  20528   ??  S     1:45PM   0:01.65 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent
+root               450   0.0  0.0  4400628   4660   ??  Ss    1:45PM   0:00.04 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+khoahung           449   0.0  0.1  4437400  11188   ??  S     1:45PM   0:01.24 /usr/libexec/pkd
+khoahung           448   0.0  0.1  4435592  10396   ??  S     1:45PM   0:00.32 /usr/libexec/dmd
+khoahung           447   0.0  0.1  4431380  22128   ??  S     1:45PM   0:01.00 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+khoahung           446   0.0  0.0  4391552   2512   ??  S     1:45PM   0:00.01 /System/Library/CoreServices/APFSUserAgent
+khoahung           445   0.0  0.0  4430288   8264   ??  S     1:45PM   0:00.49 /usr/libexec/swcd
+khoahung           444   0.0  0.0  4429880   7964   ??  S     1:45PM   0:01.02 /System/Library/CoreServices/lockoutagent
+khoahung           443   0.0  0.0  4429724   6220   ??  S     1:45PM   0:00.12 /usr/libexec/networkserviceproxy
+khoahung           442   0.0  0.1  4431536  14900   ??  S     1:45PM   0:00.68 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+khoahung           441   0.0  0.2  4470288  35608   ??  S     1:45PM   0:01.83 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+khoahung           440   0.0  0.1  4901832  11240   ??  Ss    1:45PM   0:00.08 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+khoahung           439   0.0  0.1  4445460  12588   ??  S     1:45PM   0:01.70 /usr/libexec/nsurlsessiond
+khoahung           438   0.0  0.1  4445460  18852   ??  S     1:45PM   0:00.87 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+khoahung           437   0.0  0.2  4481920  39660   ??  S     1:45PM   0:05.24 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+khoahung           436   0.0  0.1  4429936   8476   ??  S     1:45PM   0:00.17 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+khoahung           435   0.0  0.1  4446848  18264   ??  S     1:45PM   0:01.24 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+khoahung           434   0.0  0.1  4438180  15872   ??  S     1:45PM   0:00.54 /System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd
+khoahung           433   0.0  0.1  4437228  11584   ??  S     1:45PM   0:00.32 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper
+khoahung           432   0.0  0.1  4430820   8784   ??  S     1:45PM   0:00.88 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+khoahung           431   0.0  0.3  4452856  47052   ??  S     1:45PM   0:04.35 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+khoahung           430   0.0  0.1  4431060  17556   ??  S     1:45PM   0:00.76 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+khoahung           429   0.0  0.0  4430368   6820   ??  S     1:45PM   0:00.35 /usr/libexec/secinitd
+khoahung           428   0.0  0.1  4434064  14348   ??  S     1:45PM   0:08.44 /usr/libexec/trustd --agent
+root               427   0.0  0.0  4431772   6664   ??  Ss    1:45PM   0:00.09 /usr/sbin/systemsoundserverd
+khoahung           426   0.0  0.0  4391520   4500   ??  S     1:45PM   0:00.12 /usr/libexec/pboard
+khoahung           425   0.0  0.0  4430532   7828   ??  S     1:45PM   0:00.07 /System/Library/CoreServices/backgroundtaskmanagementagent
+khoahung           424   0.0  0.2  5112056  30404   ??  S     1:45PM   0:01.68 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+khoahung           423   0.0  0.0  4399884   3380   ??  S     1:45PM   0:00.08 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+khoahung           422   0.0  0.1  4430156  16140   ??  S     1:45PM   0:00.54 /usr/libexec/rapportd
+khoahung           419   0.0  0.2  4447904  32604   ??  S     1:45PM   0:04.15 /usr/libexec/secd
+khoahung           418   0.0  0.7  5287196 113372   ??  S     1:45PM   0:07.31 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+khoahung           417   0.0  0.1  5099236  22200   ??  S     1:45PM   0:00.44 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+khoahung           416   0.0  0.2  5112672  34016   ??  S     1:45PM   0:02.98 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+khoahung           415   0.0  0.3  4478080  45392   ??  S     1:45PM   0:03.51 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+khoahung           414   0.0  0.4  4973280  72392   ??  S     1:45PM   0:02.83 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+khoahung           413   0.0  0.1  4445296  12672   ??  S     1:45PM   0:00.09 /System/Library/CoreServices/talagent
+khoahung           412   0.0  0.1  4432232  12280   ??  S     1:45PM   0:00.65 /usr/sbin/usernoted
+khoahung           411   0.0  0.1  4438788  16904   ??  S     1:45PM   0:02.40 /usr/libexec/lsd
+khoahung           409   0.0  0.1  4900600   9604   ??  S     1:45PM   0:00.20 /usr/sbin/universalaccessd launchd -s
+khoahung           408   0.0  0.0  4391600   3056   ??  S     1:45PM   0:00.02 /System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd
+khoahung           407   0.0  0.1  4438932  20552   ??  S     1:45PM   0:01.79 /usr/libexec/knowledge-agent
+khoahung           405   0.0  0.1  4431884  13588   ??  S     1:45PM   0:01.89 /usr/libexec/UserEventAgent (Aqua)
+khoahung           404   0.0  0.0  4400676   5396   ??  S     1:45PM   0:01.94 /usr/sbin/cfprefsd agent
+khoahung           403   0.0  0.0  4429332   6484   ??  S     1:45PM   0:00.03 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               402   0.0  0.0  4391548   1900   ??  Ss    1:45PM   0:00.10 /usr/libexec/securityd_service
+khoahung           401   0.0  0.0  4336724   6760   ??  S     1:45PM   0:00.94 /usr/sbin/distnoted agent
+_netbios           400   0.0  0.0  4429588   5832   ??  SNs   1:45PM   0:00.18 /usr/sbin/netbiosd
+root               399   0.0  0.0  4429316   5776   ??  Ss    1:45PM   0:00.04 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               398   0.0  0.0  4365636   1484   ??  Ss    1:45PM   0:00.01 /usr/libexec/smd
+_captiveagent      394   0.0  0.0  4400396   3476   ??  Ss    1:45PM   0:00.06 /usr/libexec/captiveagent
+root               390   0.0  0.0  4383932   5572   ??  Ss    1:45PM   0:00.09 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+_spotlight         387   0.0  0.0  4334676   1312   ??  S     1:45PM   0:00.04 /usr/sbin/distnoted agent
+root               386   0.0  2.9  8362148 482404   ??  Ss    1:45PM   0:42.04 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+_appleevents       385   0.0  0.0  4334640   1168   ??  S     1:45PM   0:00.05 /usr/sbin/distnoted agent
+root               384   0.0  0.0  4399188   2840   ??  Ss    1:45PM   0:00.02 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+root               383   0.0  0.1  4437304   8832   ??  Ss    1:45PM   0:00.07 /System/Library/CoreServices/sharedfilelistd
+root               382   0.0  0.0  4366552   3128   ??  Ss    1:45PM   0:00.04 /System/Library/CoreServices/iconservicesagent runAsRoot
+root               380   0.0  0.1  4435316  10488   ??  Ss    1:45PM   0:00.63 /Library/Application Support/Malwarebytes/MBAM/Engine.bundle/Contents/PlugIns/SettingsDaemon.app/Contents/MacOS/SettingsDaemon
+root               377   0.0  0.0  4358768   2204   ??  Ss    1:45PM   0:00.01 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+root               365   0.0  0.0  4363380   4584   ??  Ss    1:45PM   0:00.04 /usr/libexec/bootinstalld
+root               363   0.0  0.0  4436960   8088   ??  S     1:45PM   0:00.14 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+root               356   0.0  0.1  4459656   8916   ??  Ss    1:45PM   0:00.67 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+_appleevents       355   0.0  0.0  4429980   5748   ??  Ss    1:45PM   0:00.17 /System/Library/CoreServices/appleeventsd --server
+_atsserver         350   0.0  0.1  4401440   8732   ??  Ss    1:45PM   0:00.26 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+root               349   0.0  0.0  4398892   2252   ??  Ss    1:45PM   0:00.05 /usr/libexec/colorsyncd
+root               348   0.0  0.0  4399396   3616   ??  Ss    1:45PM   0:00.05 /usr/libexec/colorsync.displayservices
+root               339   0.0  0.0  4429540   5980   ??  Ss    1:45PM   0:00.07 /usr/libexec/wifianalyticsd
+root               335   0.0  0.0  4421628   4332   ??  Ss    1:45PM   0:00.06 /usr/libexec/secinitd
+_windowserver      334   0.0  0.0  4334640   1168   ??  S     1:45PM   0:00.04 /usr/sbin/distnoted agent
+_hidd              332   0.0  0.0  4399204   2360   ??  Ss    1:45PM   0:00.03 /usr/libexec/hidd
+root               329   0.0  0.0  4336752   2652   ??  Ss    1:45PM   0:00.02 /usr/libexec/thermald
+_locationd         318   0.0  0.1  4445316  16652   ??  Ss    1:45PM   0:01.65 /usr/libexec/locationd
+_driverkit         316   0.0  0.0  4814536   2560   ??  Ss    1:45PM   0:05.56 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDEventDriver 0x1000004b9
+root               314   0.0  0.0  4429812   4924   ??  Ss    1:45PM   0:00.11 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+_driverkit         312   0.0  0.0  4801200   2140   ??  Ss    1:45PM   0:00.04 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x100000454
+_driverkit         311   0.0  0.0  4806320   2244   ??  Ss    1:45PM   0:07.22 /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice1 0x100000442
+root               310   0.0  0.0  4399712   3612   ??  Ss    1:45PM   0:00.19 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root               309   0.0  0.0  4382364   1872   ??  Ss    1:45PM   0:00.01 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+_coreaudiod        303   0.0  0.0  4353348   3020   ??  Ss    1:45PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root               302   0.0  0.0  4391576   3992   ??  Ss    1:45PM   0:00.07 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+root               299   0.0  0.0  4375200   6224   ??  Ss    1:45PM   0:00.05 /System/Library/PrivateFrameworks/SiriInference.framework/Support/siriinferenced
+_locationd         288   0.0  0.0  4413296   4096   ??  S     1:45PM   0:00.07 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+_locationd         286   0.0  0.0  4432088   6948   ??  S     1:45PM   0:00.11 /usr/libexec/trustd --agent
+_locationd         285   0.0  0.0  4399724   1332   ??  S     1:45PM   0:00.01 /usr/sbin/cfprefsd agent
+_coreaudiod        284   0.0  0.0  4366940   1928   ??  Ss    1:45PM   0:00.01 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+_locationd         283   0.0  0.0  4421644   3980   ??  S     1:45PM   0:00.06 /usr/libexec/secinitd
+_locationd         281   0.0  0.0  4334640   1176   ??  S     1:45PM   0:00.05 /usr/sbin/distnoted agent
+_locationd         280   0.0  0.1  4432928  11328   ??  S     1:45PM   0:00.23 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+_coreaudiod        278   0.0  0.0  4334640   1168   ??  S     1:45PM   0:00.05 /usr/sbin/distnoted agent
+root               277   0.0  0.0  4429860   4520   ??  Ss    1:45PM   0:00.26 /usr/sbin/mDNSResponderHelper
+root               271   0.0  0.1  4446112  18640   ??  Ss    1:45PM   0:03.02 /usr/libexec/mobileassetd
+root               259   0.0  0.0  4406784   8036   ??  Ss    1:45PM   0:01.56 /usr/libexec/runningboardd
+_nsurlsessiond     249   0.0  0.1  4445980  13188   ??  Ss    1:45PM   0:00.97 /usr/libexec/nsurlsessiond --privileged
+root               248   0.0  0.0  4428648   4128   ??  Ss    1:45PM   0:01.50 /usr/libexec/usbd
+root               247   0.0  0.0  4391056   3004   ??  Ss    1:45PM   0:00.03 /usr/libexec/apfsd
+root               246   0.0  0.0  4390004   2828   ??  Ss    1:45PM   0:00.02 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root               245   0.0  0.0  4374704   2856   ??  Ss    1:45PM   0:00.01 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+root               244   0.0  0.0  4401960   4128   ??  Ss    1:45PM   0:00.08 /usr/libexec/diskmanagementd
+root               243   0.0  0.2  4458304  33628   ??  Ss    1:45PM   0:29.52 /usr/libexec/syspolicyd
+_mdnsresponder     237   0.0  0.1  4433816  10368   ??  Ss    1:45PM   0:01.75 /usr/sbin/mDNSResponder
+_coreaudiod        231   0.0  0.1  4443096  11260   ??  Ss    1:45PM   0:13.15 /usr/sbin/coreaudiod
+root               229   0.0  0.1  4434752   9876   ??  Ss    1:45PM   0:00.24 /usr/libexec/searchpartyd
+root               226   0.0  0.0  4430480   5568   ??  Ss    1:45PM   0:00.08 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+_networkd          223   0.0  0.1  4441580  11576   ??  Ss    1:45PM   0:01.57 /usr/libexec/symptomsd
+root               222   0.0  0.1  4443036  19404   ??  Ss    1:45PM   0:10.85 /usr/libexec/airportd
+root               221   0.0  0.0  4429376   4976   ??  Ss    1:45PM   0:00.17 /usr/libexec/nehelper
+root               220   0.0  0.1  4441792  12812   ??  Ss    1:45PM   0:00.25 /usr/libexec/findmydeviced
+root               219   0.0  0.1  4436540  10576   ??  Ss    1:45PM   0:00.53 /usr/libexec/lsd runAsRoot
+root               217   0.0  0.1  4434720  13828   ??  Ss    1:45PM   0:06.81 /usr/libexec/trustd
+root               214   0.0  0.0  4399932   4000   ??  Ss    1:45PM   0:00.03 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+root               211   0.0  0.0  4390992   4484   ??  Ss    1:45PM   0:00.09 /usr/libexec/PowerUIAgent
+root               210   0.0  0.0  4334676   1312   ??  S     1:45PM   0:00.06 /usr/sbin/distnoted agent
+root               203   0.0  0.0  4431288   5808   ??  Ss    1:45PM   0:00.35 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               201   0.0  0.1  4439620  20480   ??  Ss    1:45PM   0:00.73 /usr/libexec/amfid
+_analyticsd        159   0.0  0.1  4437812  14380   ??  Ss    1:45PM   0:01.23 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+khoahung           156   0.0  0.2  4499276  30596   ??  Ss    1:45PM   0:01.21 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root               153   0.0  0.0  4441848   5556   ??  Ss    1:45PM   0:00.30 /System/Library/CoreServices/coreservicesd
+root               152   0.0  0.0  4365660    888   ??  Ss    1:45PM   0:00.02 aslmanager
+root               151   0.0  0.1  4437656  14404   ??  Ss    1:45PM   0:02.17 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root               149   0.0  0.0  4400636   4904   ??  Ss    1:45PM   0:01.98 /usr/sbin/cfprefsd daemon
+root               148   0.0  0.1  4432176   9424   ??  Ss    1:45PM   0:01.07 /usr/libexec/AirPlayXPCHelper
+root               147   0.0  0.1  4429528   9104   ??  Ss    1:45PM   0:00.51 /usr/libexec/corebrightnessd --launchd
+root               146   0.0  0.1  4433512  10128   ??  Ss    1:45PM   0:00.84 /usr/libexec/sandboxd
+root               145   0.0  0.0  4400072   2436   ??  Ss    1:45PM   0:01.93 /usr/sbin/notifyd
+root               144   0.0  0.1  4432756   8544   ??  Ss    1:45PM   0:06.36 /usr/sbin/bluetoothd
+root               142   0.0  0.0  4366664   1444   ??  Ss    1:45PM   0:00.01 /usr/sbin/KernelEventAgent
+root               141   0.0  0.0  4431612   7516   ??  Ss    1:45PM   0:00.18 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               140   0.0  0.0  4399252   4088   ??  Ss    1:45PM   0:00.09 /System/Library/CoreServices/logind
+root               137   0.0  0.1  4433108  22212   ??  Ss    1:45PM   0:02.21 /usr/libexec/PerfPowerServices
+root               136   0.0  0.0  4399852   3040   ??  Ss    1:45PM   0:00.05 /System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon
+_distnote          135   0.0  0.0  4334676   2256   ??  Ss    1:45PM   0:00.20 /usr/sbin/distnoted daemon
+root               133   0.0  0.0  4430232   7232   ??  Ss    1:45PM   0:00.13 /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kdc
+root               132   0.0  0.1  4435368  10064   ??  Ss    1:45PM   0:02.68 /usr/libexec/dasd
+_displaypolicyd    129   0.0  0.0  4402372   4764   ??  Ss    1:45PM   0:00.11 /usr/libexec/displaypolicyd -k 1
+root               128   0.0  0.0  4383404   2180   ??  Ss    1:45PM   0:00.01 autofsd
+root               124   0.0  0.0  4366392   1472   ??  Ss    1:45PM   0:00.01 auditd -l
+root               123   0.0  0.0  4432020   7688   ??  Ss    1:45PM   0:00.65 /usr/sbin/securityd -i
+_usbmuxd           122   0.0  0.0  4432492   6128   ??  Ss    1:45PM   0:01.91 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+root               121   0.0  0.0  4430188   7800   ??  Ss    1:45PM   0:00.21 /Applications/OneDrive.app/Contents/StandaloneUpdaterDaemon.xpc/Contents/MacOS/StandaloneUpdaterDaemon
+_timed             120   0.0  0.0  4429028   3980   ??  Ss    1:45PM   0:00.07 /usr/libexec/timed
+root               119   0.0  0.1  4432008  10712   ??  Ss    1:45PM   0:01.39 /System/Library/CoreServices/launchservicesd
+root               118   0.0  0.0  4318000   3008   ??  Ss    1:45PM   0:00.49 /usr/sbin/httpd -D FOREGROUND
+root               117   0.0  0.0  4999492   4044   ??  Ss    1:45PM   0:00.04 /Library/PrivilegedHelperTools/com.docker.vmnetd
+root               116   0.0  0.1  4439720  11724   ??  Ss    1:45PM   0:01.20 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               115   0.0  0.1  4452548  10536   ??  Ss    1:45PM   0:05.94 /usr/libexec/opendirectoryd
+root               114   0.0  0.1  4435424  13712   ??  Ss    1:45PM   0:01.45 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+root               113   0.0  0.0  4366232   1788   ??  Ss    1:45PM   0:00.03 /usr/libexec/thermalmonitord
+root               109   0.0  0.1  4442380  16136   ??  Ss    1:45PM   0:00.90 /usr/libexec/coreduetd
+root               105   0.0  0.0  4428744   4220   ??  Ss    1:45PM   0:00.37 /usr/libexec/diskarbitrationd
+root               104   0.0  0.1  4444352  20208   ??  Ss    1:45PM   0:03.37 /usr/libexec/kernelmanagerd
+_iconservices      103   0.0  0.0  4392072   3004   ??  Ss    1:45PM   0:00.05 /System/Library/CoreServices/iconservicesd
+root               102   0.0  0.3  4569364  42616   ??  Ss    1:45PM   0:18.48 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root                98   0.0  0.0  4399756   2724   ??  Ss    1:45PM   0:00.18 /usr/libexec/watchdogd
+_softwareupdate     96   0.0  0.0  4429600   6064   ??  Ss    1:45PM   0:00.11 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated
+root                93   0.0  0.0  4399620   3576   ??  Ss    1:45PM   0:00.07 /usr/libexec/keybagd -t 15
+root                92   0.0  0.1  4501948  23804   ??  Ss    1:45PM   0:02.99 /usr/libexec/logd
+root                90   0.0  0.0  4429412   3412   ??  Ss    1:45PM   0:00.06 /usr/libexec/remoted
+root                86   0.0  0.0  4430760   7032   ??  Ss    1:45PM   0:01.53 /System/Library/CoreServices/powerd.bundle/powerd
+root                85   0.0  0.0  4390484   1920   ??  Ss    1:45PM   0:00.04 endpointsecurityd
+root                84   0.0  0.1  4435096   9736   ??  Ss    1:45PM   0:00.88 /usr/libexec/configd
+root                82   0.0  0.1  4438988  13580   ??  Ss    1:45PM   0:02.13 /usr/sbin/systemstats --daemon
+root                79   0.0  0.1  4439708  14592   ??  Ss    1:45PM   0:00.69 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root                78   0.0  0.0  4406148   7376   ??  Ss    1:45PM   0:16.59 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root                77   0.0  0.0  4374344   2780   ??  Ss    1:45PM   0:00.14 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+root                75   0.0  0.2  4462924  37300   ??  S<s   1:45PM   0:08.94 /Library/Application Support/Malwarebytes/MBAM/Engine.bundle/Contents/PlugIns/RTProtectionDaemon.app/Contents/MacOS/RTProtectionDaemon -i E30B29E7-6C70-4564-B461-0F13F24ACEF6.pkg
+root                73   0.0  0.1  4432092  11524   ??  Ss    1:45PM   0:00.67 /usr/libexec/UserEventAgent (System)
+root                72   0.0  0.0  4402136   1316   ??  Ss    1:45PM   0:01.67 /usr/sbin/syslogd
+root                 1   0.0  0.2  4408388  26876   ??  Ss    1:44PM   0:09.78 /sbin/launchd
+root              2510   0.0  0.0  4268896    972 s000  R+    2:45PM   0:00.00 ps aux
+khoahung           671   0.0  0.0        0      0   ??  Z     1:45PM   0:00.00 (uname)
+root              2509   0.0  0.0  4269920    988 s000  R+    2:45PM   0:00.00 ps aux
+khoahung          2508   0.0  0.0  4269000   1004 s000  S+    2:45PM   0:00.00 /bin/bash -c ps aux > process_list.txt\012
+khoahung          2507   0.0  0.0  4278216   1020 s000  S+    2:45PM   0:00.00 /bin/bash -c ps aux > process_list.txt\012
+khoahung          2493   0.0  0.0  4382316   2352   ??  S     2:44PM   0:00.03 trustevaluationagent

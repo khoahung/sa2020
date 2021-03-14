@@ -1,0 +1,5 @@
+khoahung           756   0.0  0.0  4310232   1944   ??  S     1:45PM   0:00.03 /usr/bin/ssh-agent -l
+khoahung          1981   0.0  0.0  4268424    604 s000  R+    2:24PM   0:00.00 grep ssh
+khoahung          1980   0.0  0.0  4268424    696 s000  S+    2:24PM   0:00.00 grep ssh
+khoahung          1977   0.0  0.0  4270024   1000 s000  S+    2:24PM   0:00.00 /bin/bash -c ps aux | grep ssh > ssh_process_lish.txt\012
+khoahung          1976   0.0  0.0  4270024   1000 s000  S+    2:24PM   0:00.00 /bin/bash -c ps aux | grep ssh > ssh_process_lish.txt\012

@@ -2,3 +2,15 @@ ls -la
 ls -l
 ls -la
 ls -la
+ls
+ls
+ls
+ls
+ps aux | grep ssh > ssh_process_lish.txt
+ps aux | grep ssh > ssh_process_lish.txt
+ls
+ls
+exit
+exit
+ps aux > process_list.txt
+ps aux > process_list.txt

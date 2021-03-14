@@ -33,7 +33,7 @@ void doexec(void) {
                	 	dup2 (pipefds[1], 1);
                 	close(pipefds[0]);
                 	close(pipefds[1]);
-               	 	execvp(...);
+               	 	//execvp(...);
 		break;
 	 default:
                	 	dup2(pipefds[0], 0);
@@ -63,6 +63,7 @@ int main() {
             signalPid = pid;
             waitpid(pid, NULL,0);
         }else{
+            doexec();
             saveFile(cmd);
             char *args[]= {"/bin/bash","-c",cmd,NULL};
             execvp("/bin/bash", args);
