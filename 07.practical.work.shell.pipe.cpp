@@ -33,7 +33,6 @@ void doexec(void) {
                	 	dup2 (pipefds[1], 1);
                 	close(pipefds[0]);
                 	close(pipefds[1]);
-               	 	//execvp(...);
 		break;
 	 default:
                	 	dup2(pipefds[0], 0);
@@ -49,6 +48,13 @@ void saveFile(string cmd){
     outfile << cmd;
     outfile.close();
 }
+int showContentFile()
+{
+    std::ifstream f("history.txt");
+
+    if (f.is_open())
+        std::cout << f.rdbuf();
+}
 int main() {
     signal(SIGINT, signalHandler);
     signal(SIGTERM, signalHandler);
@@ -57,7 +63,10 @@ int main() {
     while (1) {
         cout<<"USShell> ";
         fgets(cmd,sizeof(cmd),stdin);
-        if(strcmp(cmd,"/q\n")==0) break;
+        if(strcmp(cmd,"/q\n")==0){
+            showContentFile();
+            break;
+        }
         int pid = fork();
         if(pid){
             signalPid = pid;

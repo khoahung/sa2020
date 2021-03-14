@@ -14,3 +14,9 @@ exit
 exit
 ps aux > process_list.txt
 ps aux > process_list.txt
+ls
+ls
+la
+la
+ls -la
+ls -la
